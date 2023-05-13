@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecriptador - Reto ONE G5 </title>
+    <link rel="stylesheet" href="./Style_CMhn.css">
+    <!-- Fuente de Inter de Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./01_Imagenes/logo.gif" alt="Logo Alura Encriptador" >
+        <h1>Reto encriptador - ONE G5</h1>
+    </header>
+    <main>
+        <section class="seccion_encriptador">
+            <textarea class="textarea_encriptador" onkeyup="Actualizar_Encriptador()" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <p class="instrucciones"><img src="./01_Imagenes/Exclamacion.svg">Letras minúsculas y sin acentos</p>
+            </div>
+            <div class="Botones_encriptador">
+                <button class="btn_encriptar" onclick="Boton_encriptar()">Encriptar</button>
+                <button class="btn_desencriptar" onclick="Boton_desencriptar()">Desencriptar</button>
+                <button class="btn_Limpiar" onclick="Boton_limpiar()">Limpiar</button>
+            </div>
+        </section>
+        <section class="seccion_resultado">
+            <div class="Area_resultado">
+                <textarea disabled class="textarea_resultado" cols="20" rows="10"></textarea>
+                <button class="btn_copiar" onclick="Boton_copiar()">Copiar</button>
+            </div>       
+        </section>
+    </main>
+    <footer>
+        <div class="Informacion_Autor">
+            <p>&copy Copyright 2023<br>Carlos Melgar</p>
+            <a href="https://github.com/CMZhn"><img class="Logo_GitHub" src="./01_Imagenes/logo_GitHub.svg" alt="Logo github" > CMZhn</a>
+        </div>
+    </footer>
+    <script src="./Script_CMhn.js"></script>
+</body>
+
+</html>
