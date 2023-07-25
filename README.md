@@ -1,6 +1,12 @@
 <p align="center"><img src="https://github.com/CMZhn/Encriptador_ONE_G5/blob/main/01_Imagenes/logo.gif"/></p>
 <h1 style="color:rgb(12, 160, 94)">Challenge Principiante en Programación - Encriptador ONE G5</h1>
-
+<p align="left">
+   <img src="https://img.shields.io/badge/ESTADO-FINALIZADO-brightgreen">
+   <img src="https://img.shields.io/badge/LIBERACI%C3%93N-MAYO%202023-rgb(162%2C162%2C40)">
+   <img src="https://img.shields.io/badge/VERSI%C3%93N-V1.0.23-rgb(15%2C128%2C193)">
+   <img src="https://img.shields.io/github/license/CMZhn/Encriptador_ONE_G5">
+   <img src="https://img.shields.io/github/repo-size/CMZhn/Encriptador_ONE_G5"> 
+</p>
 <p>
   Primer reto de <a href="https://www.aluracursos.com/">Alura</a> + <a href="https://www.oracle.com/mx/education/oracle-next-education/">Oracle Next Education</a> grupo 5.
 </p>
